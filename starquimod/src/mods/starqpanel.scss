@@ -1,0 +1,9 @@
+.StarQPanel {
+    position:relative; /* Remove from normal document flow */
+    right: -90rem; /* Adjust the position */
+    top: 0; /* You can also use 'top', 'bottom', 'left' to adjust the placement */
+    width: 200rem; /* Set the width */
+    height: 200rem; /* Set the height */
+    z-index: 200; /* Ensure it is above other elements */
+    background-color: black; /* Set the background color */
+}
